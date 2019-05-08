@@ -1,5 +1,6 @@
 plugins {
 	java
+	application
 }
 
 repositories {
@@ -7,4 +8,8 @@ repositories {
 }
 
 dependencies {
+}
+
+application {
+	mainClassName = "HelloWorld"
 }
